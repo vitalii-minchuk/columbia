@@ -1,12 +1,12 @@
-import { Header } from '@/components/layout'
 import type{ PropsWithChildren } from 'react'
+import { Header, Sidebar } from '@/components/layout'
 
 export default function HomeLayout(props: PropsWithChildren) {
     const {children} = props
 
   return (
     <main className='root'>
-      <Header />
+      <Sidebar />
       <div className='root-container'>
         <div className='wrapper'>
       {children}

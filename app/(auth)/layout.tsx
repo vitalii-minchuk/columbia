@@ -4,6 +4,6 @@ export default function AuthLayout(props: PropsWithChildren) {
     const {children} = props
 
   return (
-    <main>{children}</main>
+    <main className='auth'>{children}</main>
   )
 }
